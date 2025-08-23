@@ -1,0 +1,37 @@
+.nav-bar-kiri{
+    position: fixed;
+    top: 65px;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    background-color: white;
+    z-index: 200;
+}
+
+.nav-bar-kiri{
+    padding-top: 10px;
+    align-items: center;    
+}
+
+.isi-navbar-kiri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+.isi-navbar-kiri:hover{
+    background-color: rgb(214, 214, 214);
+}
+.isi-navbar-kiri img{
+    width: 30px;
+}
+.isi-navbar-kiri p{
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+}
